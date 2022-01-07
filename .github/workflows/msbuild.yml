@@ -12,11 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-on:
-  push:
-    tags:
-    - 'v*' # Push events to matching v*, i.e. v1.0
-
+on: workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
